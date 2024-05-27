@@ -1,0 +1,15 @@
+{
+  "name": "question_06",
+  "version": "1.0.0",
+  "description": "Stripping Names: Store a person’s name, and include some whitespace characters at the beginning and end of the name. Make sure you use each character combination, '\t' and '\n', at least once. Print the name once, so the whitespace around the name is displayed. Then print the name after striping the white spaces.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Sheikh Hammad",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.20"
+  }
+}

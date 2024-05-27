@@ -1,0 +1,12 @@
+{
+  "name": "question_32",
+  "version": "1.0.0",
+  "description": "Checking Usernames: Do the following to create a program that simulates how websites ensure that everyone has a unique username.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Sheikh Hammad",
+  "license": "ISC"
+}

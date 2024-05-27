@@ -1,0 +1,12 @@
+{
+  "name": "question_25",
+  "version": "1.0.0",
+  "description": "Alien Colors #1: Imagine an alien was just shot down in a game. Create a variable called alien_color and assign it a value of 'green', 'yellow', or 'red'.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Sheikh Hammad",
+  "license": "ISC"
+}

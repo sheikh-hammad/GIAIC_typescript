@@ -1,0 +1,20 @@
+{
+  "name": "question_28",
+  "version": "1.0.0",
+  "description": "Stage.ages of Life: Write an if-else chain that determines a persons stage.age of life. Set a value for the variable age",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.18"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}

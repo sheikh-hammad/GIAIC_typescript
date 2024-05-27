@@ -1,0 +1,15 @@
+{
+  "name": "question_09",
+  "version": "1.0.0",
+  "description": "Favorite Number: Store your favorite number in a variable. Then, using that variable, create a message that reveals your favorite number. Print that message.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Sheikh Hammad",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.20"
+  }
+}

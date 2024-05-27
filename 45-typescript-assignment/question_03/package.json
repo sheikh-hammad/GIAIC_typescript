@@ -1,0 +1,15 @@
+{
+  "name": "question_03",
+  "version": "1.0.0",
+  "description": "Name Cases: Store a person's name in a variable, and then print that person's name in lowercase, uppercase, and titlecase.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Sheikh Hammad",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.20"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "question_36",
+  "version": "1.0.0",
+  "description": "T-Shirt: Write a function called make_shirt() that accepts a size and the text of a message that should be printed on the shirt. The function should print a sentence summarizing the size of the shirt and the message printed on it. Call the function.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sheikh Hammad",
+  "license": "ISC"
+}

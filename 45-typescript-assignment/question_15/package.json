@@ -1,0 +1,15 @@
+{
+  "name": "question_15",
+  "version": "1.0.0",
+  "description": "Changing Guest List: You just heard that one of your guests can’t make the dinner, so you need to send out a new set of invitations. You’ll have to think of someone else to invite.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Sheikh Hammad",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.25"
+  }
+}

@@ -1,0 +1,1 @@
+A cli based simple atm machine using Node JS, Typescript, and Inquirer.

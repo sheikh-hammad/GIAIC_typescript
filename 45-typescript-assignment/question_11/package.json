@@ -1,0 +1,15 @@
+{
+  "name": "question_11",
+  "version": "1.0.0",
+  "description": "Names: Store the names of a few of your friends in a array called names. Print each person’s name by accessing each element in the list, one at a time.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Sheikh Hammad",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.20"
+  }
+}
