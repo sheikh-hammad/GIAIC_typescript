@@ -1,7 +1,7 @@
 {
-  "name": "sheikh_hammad-student-management-system",
-  "version": "1.0.3",
-  "description": "This project is a simple console based Student Management System.",
+  "name": "sheikh_hammad-adventure-game",
+  "version": "1.0.0",
+  "description": "A simple CLI baseed adventure game",
   "main": "index.js",
   "type": "module",
   "bin": "index.js",
@@ -16,8 +16,5 @@
   "devDependencies": {
     "@types/inquirer": "^9.0.7",
     "inquirer": "^9.2.23"
-  },
-  "dependencies": {
-    "chalk": "^5.3.0"
   }
 }
