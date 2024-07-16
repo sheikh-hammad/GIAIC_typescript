@@ -8,7 +8,7 @@ the whitespace around the name is displayed. Then print
 the name after striping the white spaces.
 */
 
-const personName = "\t Sheikh Hammad \n";
+const personName: string = "\t Sheikh Hammad \n";
 console.log(personName);
-const strippedName = personName.trim();
+const strippedName:string = personName.trim();
 console.log("Stripped Name:",strippedName);

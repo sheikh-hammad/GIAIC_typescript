@@ -1,4 +1,3 @@
-"use strict";
 /*
 Name Cases: Store a person’s name in
 a variable, and then print that person’s
@@ -12,9 +11,12 @@ console.log(lowerCaseName);
 const upperCaseName = personName.toUpperCase();
 console.log(upperCaseName);
 // to titlecase
-const words = personName.split(" ");
-let titleCase = "";
-for (let i = 0; i < words.length; i++) {
-    titleCase += words[i].charAt(0).toUpperCase() + words[i].slice(1).toLowerCase() + " ";
-}
+const string = personName.split(" ");
+const titleCase = string
+  .map(
+    (string) =>
+      string.charAt(0).toUpperCase() + string.substring(1).toLowerCase()
+  )
+  .join(" ");
 console.log(titleCase);
+export {};

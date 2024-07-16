@@ -4,20 +4,17 @@ a variable, and then print that person’s
 name in lowercase, uppercase, and titlecase
 */
 
-const personName = "Sheikh hammad";
+const personName: string = "Sheikh hammad";
 
 // to lowercase
-const lowerCaseName = personName.toLowerCase();
+const lowerCaseName: string = personName.toLowerCase();
 console.log(lowerCaseName);
 
 // to uppercase
-const upperCaseName = personName.toUpperCase();
+const upperCaseName: string = personName.toUpperCase();
 console.log(upperCaseName);
 
 // to titlecase
-const words = personName.split(" ");
-let titleCase = "";
-for(let i = 0; i < words.length; i++){
-    titleCase += words[i].charAt(0).toUpperCase()+words[i].slice(1).toLowerCase()+" "
-};
+const string = personName.split(" ")
+const titleCase = string.map((string) => string.charAt(0).toUpperCase() + string.substring(1).toLowerCase()).join(" ")
 console.log(titleCase);

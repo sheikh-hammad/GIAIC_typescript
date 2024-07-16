@@ -4,5 +4,5 @@ message to that person. Your message should be simple, such as,
 “Hello Eric, would you like to learn some Python today?”
 */
 
-const personName = "Hammad";
+const personName: string = "Hammad";
 console.log(`"Hi ${personName}, would you like to learn some python today?`);

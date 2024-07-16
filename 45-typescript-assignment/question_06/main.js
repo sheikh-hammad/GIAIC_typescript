@@ -1,4 +1,3 @@
-"use strict";
 /*
 Stripping Names: Store a person’s name,
 and include some whitespace characters
@@ -12,3 +11,4 @@ const personName = "\t Sheikh Hammad \n";
 console.log(personName);
 const strippedName = personName.trim();
 console.log("Stripped Name:", strippedName);
+export {};
