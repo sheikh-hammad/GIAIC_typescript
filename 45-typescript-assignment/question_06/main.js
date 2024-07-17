@@ -7,7 +7,7 @@ Make sure you use each character combination,
 the whitespace around the name is displayed. Then print
 the name after striping the white spaces.
 */
-const personName = "\t Sheikh Hammad \n";
+const personName = "\t\n Sheikh Hammad \t\n";
 console.log(personName);
 const strippedName = personName.trim();
 console.log("Stripped Name:", strippedName);

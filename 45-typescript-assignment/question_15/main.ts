@@ -5,25 +5,24 @@ so you need to send out a new set of invitations.
 You’ll have to think of someone else to invite.
 */
 
-const guestList:string[] = ['hammad', 'ali', 'sajid'];
+// Name of the guests
+const guests: string[] = ["Hammad", "Shaffan", "Haider"]
 
-// for(let i = 0; i < guestList.length; i++){
-//     console.log('Please come to our house for dinner ' + guestList[i]);
-// }
+// uest not coming
+const guestNotComing = guests[0]
+console.log(guestNotComing);
 
-// print the name of the person who cannot join
-const guestNotComing:string = guestList[0];
+// New Guest Coming
+const newGuest = "Ali"
 
-// replace the guest
-const newGuest:string = 'adil';
-const indexofNewGuest:number =  guestList.indexOf(guestNotComing);
+const indexOfNewGuest = guests.indexOf(guestNotComing)
 
-// new string
-if(indexofNewGuest !== 2){
-    guestList[indexofNewGuest] = newGuest
+if (indexOfNewGuest !== 2) {
+    guests[indexOfNewGuest] = newGuest
 }
 
-// last message
-guestList.forEach((guest:string) => {
-    console.log('Please come to our house for dinner ' + guest);
-})
+// Last Message
+for (let i = 0; i < guests.length; i++) {
+    console.log('Please come to our house for dinner ' + guests[i]);
+
+}

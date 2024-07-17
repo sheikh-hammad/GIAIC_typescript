@@ -5,6 +5,6 @@ variable, create a message that reveals
 your favorite number. Print that message.
 */
 
-const favNum = 19;
-const message = `Your number is ${favNum}`;
+const favNum: number = 19;
+const message: string = `Your number is ${favNum}`;
 console.log(message);

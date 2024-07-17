@@ -1,24 +1,22 @@
-"use strict";
 /*
 Changing Guest List: You just heard that
 one of your guests can’t make the dinner,
 so you need to send out a new set of invitations.
 You’ll have to think of someone else to invite.
 */
-const guestList = ['hammad', 'ali', 'sajid'];
-// for(let i = 0; i < guestList.length; i++){
-//     console.log('Please come to our house for dinner ' + guestList[i]);
-// }
-// print the name of the person who cannot join
-const guestNotComing = guestList[0];
-// replace the guest
-const newGuest = 'adil';
-const indexofNewGuest = guestList.indexOf(guestNotComing);
-// new string
-if (indexofNewGuest !== 2) {
-    guestList[indexofNewGuest] = newGuest;
+// Name of the guests
+const guests = ["Hammad", "Shaffan", "Haider"];
+// uest not coming
+const guestNotComing = guests[0];
+console.log(guestNotComing);
+// New Guest Coming
+const newGuest = "Ali";
+const indexOfNewGuest = guests.indexOf(guestNotComing);
+if (indexOfNewGuest !== 2) {
+    guests[indexOfNewGuest] = newGuest;
 }
-// last message
-guestList.forEach((guest) => {
-    console.log('Please come to our house for dinner ' + guest);
-});
+// Last Message
+for (let i = 0; i < guests.length; i++) {
+    console.log('Please come to our house for dinner ' + guests[i]);
+}
+export {};

@@ -6,17 +6,17 @@ your operations in print statements to see the results.
 */
 
 // addition
-const additionResult = 3 + 5;
-console.log("Addition Result:" + additionResult);
+const additionResult:number = 3 + 5;
+console.log("Addition Result: " + additionResult);
 
 // subtraction
-const subtractionResult = 10 - 2;
-console.log("Subtraction Result:" + subtractionResult);
+const subtractionResult:number = 10 - 2;
+console.log("Subtraction Result: " + subtractionResult);
 
 // multiplication
-const multiplicationResult = 2 * 4;
-console.log("Multiplication Result:" + multiplicationResult);
+const multiplicationResult:number = 2 * 4;
+console.log("Multiplication Result: " + multiplicationResult);
 
 // division
-const divisionResult = 16 / 2;
-console.log("Division Result:"+ divisionResult)
+const divisionResult:number = 16 / 2;
+console.log("Division Result: "+ divisionResult)

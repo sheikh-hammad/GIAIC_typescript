@@ -10,7 +10,7 @@ personalized with the person’s name.
 let names = ["John", "Jack", "Hammad"];
 
 // Loop through each name
-for(let name of names){
-    // Print a message
-    console.log(`Hi, how are you ${name}`)
+
+for(let i = 0; i<names.length; i++){
+    console.log(`Hi, how are you ${names[i]}`);
 }

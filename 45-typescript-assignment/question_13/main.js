@@ -1,4 +1,3 @@
-"use strict";
 /*
 Your Own Array: Think of your favorite mode
 of transportation, such as a motorcycle or a
@@ -9,7 +8,8 @@ would like to own a Honda motorcycle.”
 */
 // make an array
 const publicTransport = ['honda', 'toyota', 'hundai', 'suzuki'];
-// for loop
-for (let i = 0; i < publicTransport.length; i++) {
-    console.log('I would like to own ' + publicTransport[i] + ' car');
-}
+// forEach loop
+publicTransport.forEach((transport) => {
+    console.log('I would like to own ' + transport + ' car');
+});
+export {};
