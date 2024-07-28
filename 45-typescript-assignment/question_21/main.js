@@ -1,6 +1,11 @@
-;
-var itCourse = {
-    course: 'Metaverse',
-    onsite: '50000'
+/*They think of something you could
+store in a TypeScript Object.
+Write a program that creates Objects
+containing these items.
+*/
+const itCourse = {
+    course: 'AI',
+    onsite: 50000
 };
-console.log("The course ".concat(itCourse.course, " has ").concat(itCourse.onsite, " students"));
+console.log(`The course ${itCourse.course} has ${itCourse.onsite} students`);
+export {};

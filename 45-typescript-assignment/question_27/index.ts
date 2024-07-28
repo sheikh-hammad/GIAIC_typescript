@@ -10,7 +10,7 @@ Alien Colors #3: Turn your if-else chain from Exercise 5-4 into an if-else chain
 */
 
 // Version 1
-let alien_color = "Green";
+let alien_color: string = "Green";
 if (alien_color === "Green") {
   console.log("The player just earned 5 points");
 } else if (alien_color === "Yellow") {

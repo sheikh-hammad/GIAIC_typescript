@@ -1,4 +1,3 @@
-"use strict";
 /*
 Alien Colors #3: Turn your if-else chain from Exercise 5-4 into an if-else chain.
 • If the alien is green, print a message that the player earned 5 points.
@@ -9,7 +8,6 @@ Alien Colors #3: Turn your if-else chain from Exercise 5-4 into an if-else chain
 
 • Write three versions of this program, making sure each message is printed for the appropriate color alien.
 */
-Object.defineProperty(exports, "__esModule", { value: true });
 // Version 1
 let alien_color = "Green";
 if (alien_color === "Green") {
@@ -43,3 +41,4 @@ else if (alien_color === "Yellow") {
 else if (alien_color === "Red") {
     console.log("The player just earned 15 points");
 }
+export {};

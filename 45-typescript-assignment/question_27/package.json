@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Alien Colors #3: Turn your if-else chain from Exercise 5-4 into an if-else chain.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

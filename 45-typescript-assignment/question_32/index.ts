@@ -10,26 +10,29 @@ Checking Usernames: Do the following to create a program that simulates how webs
 
 */
 
-// const current_users = ["Alice", "Bob", "John", "Adam", "Alex"];
+const current_users: string[] = ["Alice", "Bob", "John", "Adam", "Alex"];
 
-// const new_users = ["Mark", "Bob", "Neil", "Adam", "Jack"];
+const new_users: string[] = ["Mark", "Bob", "Neil", "Adam", "Jack"];
 
-// if(new_users){}
+function name() {
+    for (let i in new_users) {
+        if (current_users[i].some(currentUser) => current_users) {
+
+        }
+    }
+}
 
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 numbers.forEach((number => {
     let suffix = "th";
-    if(number === 1){
+    if (number === 1) {
         suffix = "st";
-    }
-    else if (number === 2){
+    } else if (number === 2) {
         suffix = "nd";
-    }
-    else if (number === 3){
+    } else if (number === 3) {
         suffix = "rd";
-    }
-    else {
+    } else {
         suffix = "th";
     }
 

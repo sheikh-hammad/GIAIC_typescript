@@ -1,13 +1,13 @@
 {
-  "name": "question_26",
+  "name": "question_22",
   "version": "1.0.0",
-  "description": "Alien Colors #2: Choose a color for an alien as you did in Exercise 25, and write an if-else chain.",
+  "description": "",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Sheikh Hammad",
+  "author": "",
   "license": "ISC"
 }

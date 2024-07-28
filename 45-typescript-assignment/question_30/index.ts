@@ -5,7 +5,7 @@ Hello Admin: Make a array of five or more usernames, including the name 'admin'.
 • Otherwise, print a generic greeting, such as Hello Eric, thank you for logging in again.
 */
 
-const userNames = ["admin", "ali", "asad", "anus", "rafay"];
+const userNames = ["admin", "ali", "asad", "anus"];
 
 function name() {
   for (const i in userNames) {
@@ -17,3 +17,4 @@ function name() {
   }
 }
 name();
+

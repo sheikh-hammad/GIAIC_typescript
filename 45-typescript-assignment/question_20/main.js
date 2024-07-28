@@ -1,4 +1,3 @@
-"use strict";
 /*
 Think of something you could store in a array.
 For example, you could make a list of mountains,
@@ -10,7 +9,8 @@ a list containing these items.
 const cities = ["karachi", "islamabad", "multan"];
 console.log("List of cities");
 // Run the for loop to print all the cities
-for (let city of cities) {
-    console.log(city);
-}
-;
+// for(let city of cities){
+//     console.log(city);
+// };
+console.log('I visit', cities);
+export {};

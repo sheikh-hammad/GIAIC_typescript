@@ -22,50 +22,40 @@ Seeing the World: Think of at least five places in the world you’d like to vis
 
 */
 
-// const favLocations:string[] = ['bangladesh', 'england', 'denmark', 'austria', 'combodia'];
+const favLocations:string[] = ['bangladesh', 'england', 'denmark', 'austria', 'combodia'];
 
-// // Print your array in its original order.
-// console.log('Print array in its original position');
-// console.log(favLocations);
-
-// // Print your array in alphabetical order without modifying the actual list.
-// console.log('Print array in alphabetical order');
-// console.log([...favLocations].sort());
-
-// // Show that your array is still in its original order by printing it.
-// console.log('Print array again');
-// console.log(favLocations);
-
-// // Print your array in reverse alphabetical order without changing the order of the original list.
-// console.log('Print array in reverser alphabetical order');
-// console.log([...favLocations].sort().reverse());
-
-// // Show that your array is still in its original order by printing it again.
-// console.log('Print array again');
-// console.log(favLocations);
-
-// // Reverse the order of your list. Print the array to show that its order has changed.
-// console.log('Reverse the array');
-// console.log(favLocations.reverse());
-
-// // Reverse the order of your list again. Print the list to show it’s back to its original order.
-// console.log('Reverse again');
-// console.log(favLocations.reverse());
-
-// // Sort your array so it’s stored in alphabetical order. Print the array to show that its order has been changed.
-// console.log('Back to original');
-// console.log(favLocations.sort());
-
-// // Sort to change your array so it’s stored in reverse alphabetical order. Print the list to show that its order has changed.
-// console.log('Change order again');
-// console.log(favLocations.sort().reverse());
-
-
-
-const favLocations: string[] = ["Bangladesh", "Denmark", "Combodia", "Austria",]
-
-// Print array in its original position
+// Print your array in its original order.
+console.log('Print array in its original position');
 console.log(favLocations);
 
+// Print your array in alphabetical order without modifying the actual list.
+console.log('Print array in alphabetical order');
 console.log([...favLocations].sort());
+
+// Show that your array is still in its original order by printing it.
+console.log('Print array again');
 console.log(favLocations);
+
+// Print your array in reverse alphabetical order without changing the order of the original list.
+console.log('Print array in reverser alphabetical order');
+console.log([...favLocations].sort().reverse());
+
+// Show that your array is still in its original order by printing it again.
+console.log('Print array again');
+console.log(favLocations);
+
+// Reverse the order of your list. Print the array to show that its order has changed.
+console.log('Reverse the array');
+console.log(favLocations.reverse());
+
+// Reverse the order of your list again. Print the list to show it’s back to its original order.
+console.log('Reverse again');
+console.log(favLocations.reverse());
+
+// Sort your array so it’s stored in alphabetical order. Print the array to show that its order has been changed.
+console.log('Back to original');
+console.log(favLocations.sort());
+
+// Sort to change your array so it’s stored in reverse alphabetical order. Print the list to show that its order has changed.
+console.log('Change order again');
+console.log(favLocations.reverse());

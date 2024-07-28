@@ -7,7 +7,7 @@ Alien Colors #2: Choose a color for an alien as you did in Exercise 25, and writ
 • Write one version of this program that runs the if block and another that runs the else block.
 */
 
-let alien_color = "Green";
+let alien_color: string = "Green";
 
 // Version 1
 if(alien_color === "Green"){
