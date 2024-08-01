@@ -14,13 +14,23 @@ const current_users: string[] = ["Alice", "Bob", "John", "Adam", "Alex"];
 
 const new_users: string[] = ["Mark", "Bob", "Neil", "Adam", "Jack"];
 
-function name() {
-    for (let i in new_users) {
-        if (current_users[i].some(currentUser) => current_users) {
-
-        }
+new_users.forEach(newUser => {
+    if (current_users.some(currentUser => currentUser.toLowerCase() === newUser.toLowerCase())) {
+        console.log(`${newUser} will need to enter a new username.`);
+    } else {
+        console.log(`${newUser} is available.`);
     }
-}
+});
+
+
+
+// function name() {
+//     for (let i of new_users) {
+//         if (current_users[i].some(current_users) => { current_users)} {
+
+//         }
+//     }
+// }
 
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
